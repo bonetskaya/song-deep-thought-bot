@@ -1,4 +1,6 @@
-# Song Deep Thought Bot
+# Song Deep Thought Bot @sond_deep_thought_bot
+    
+    Telegram Bot that answers you with songs.
 
     get_data - download files with youtube.dl
     bot.py - telebot and NLP part 
