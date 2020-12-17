@@ -71,8 +71,8 @@ def find_file_ids(message):
     filename = song_file[text]
     print(filename)
 
-    f = open('songs_final/' + filename, 'rb')
-    msg = bot.send_voice(message.chat.id, f, None)
+    with open('songs_final/' + filename, 'rb') as f:
+        msg = bot.send_voice(message.chat.id, f, None)
 #    bot.reply_to(message, text)
     
 if __name__ == '__main__':
